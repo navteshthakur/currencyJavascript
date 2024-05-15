@@ -1,0 +1,358 @@
+<!--Name: Navtesh Thakur
+    Student ID: 200554899
+    Email:thnavtesh@gmail.com-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" id="currencyForm">
+            <h1 class="heading">Currency Converter</h1>
+            <p><label for="number">Amount: </label>
+            <input type="number" id="number" name="number"></p>
+            <div style="display: flex; text-align: center; margin-left: 12.5%;">
+            <select id="currency" name="currency">
+                <option value="AED" id="UAE Dirham - United Arab Emirates">AED</option>
+                <option value="AFN" id="Afghan Afghani - Afghanistan">AFN</option>
+                <option value="ALL" id="Albanian Lek - Albania">ALL</option>
+                <option value="AMD" id="Armenian Dram - Armenia">AMD</option>
+                <option value="ANG" id="Netherlands Antillian Guilder - Netherlands Antilles">ANG</option>
+                <option value="AOA" id="Angolan Kwanza - Angola">AOA</option>
+                <option value="ARS" id="Argentine Peso - Argentina">ARS</option>
+                <option value="AUD" id="Australian Dollar - Australia">AUD</option>
+                <option value="AWG" id="Aruban Florin - Aruba">AWG</option>
+                <option value="AZN" id="Azerbaijani Manat - Azerbaijan">AZN</option>
+                <option value="BAM" id="Bosnia and Herzegovina Mark - Bosnia and Herzegovina">BAM</option>
+                <option value="BBD" id="Barbados Dollar - Barbados">BBD</option>
+                <option value="BDT" id="Bangladeshi Taka - Bangladesh">BDT</option>
+                <option value="BGN" id="Bulgarian Lev - Bulgaria">BGN</option>
+                <option value="BHD" id="Bahraini Dinar - Bahrain">BHD</option>
+                <option value="BIF" id="Burundian Franc - Burundi">BIF</option>
+                <option value="BMD" id="Bermudian Dollar - Bermuda">BMD</option>
+                <option value="BND" id="Brunei Dollar - Brunei">BND</option>
+                <option value="BOB" id="Bolivian Boliviano - Bolivia">BOB</option>
+                <option value="BRL" id="Brazilian Real - Brazil">BRL</option>
+                <option value="BSD" id="Bahamian Dollar - Bahamas">BSD</option>
+                <option value="BTN" id="Bhutanese Ngultrum - Bhutan">BTN</option>
+                <option value="BWP" id="Botswana Pula - Botswana">BWP</option>
+                <option value="BYN" id="Belarusian Ruble - Belarus">BYN</option>
+                <option value="BZD" id="Belize Dollar - Belize">BZD</option>
+                <option value="CAD" id="Canadian Dollar - Canada">CAD</option>
+                <option value="CDF" id="Congolese Franc - Democratic Republic of the Congo">CDF</option>
+                <option value="CHF" id="Swiss Franc - Switzerland">CHF</option>
+                <option value="CLP" id="Chilean Peso - Chile">CLP</option>
+                <option value="CNY" id="Chinese Renminbi - China">CNY</option>
+                <option value="COP" id="Colombian Peso - Colombia">COP</option>
+                <option value="CRC" id="Costa Rican Colon - Costa Rica">CRC</option>
+                <option value="CUP" id="Cuban Peso - Cuba">CUP</option>
+                <option value="CVE" id="Cape Verdean Escudo - Cape Verde">CVE</option>
+                <option value="CZK" id="Czech Koruna - Czech Republic">CZK</option>
+                <option value="DJF" id="Djiboutian Franc - Djibouti">DJF</option>
+                <option value="DKK" id="Danish Krone - Denmark">DKK</option>
+                <option value="DOP" id="Dominican Peso - Dominican Republic">DOP</option>
+                <option value="DZD" id="Algerian Dinar - Algeria">DZD</option>
+                <option value="EGP" id="Egyptian Pound - Egypt">EGP</option>
+                <option value="ERN" id="Eritrean Nakfa - Eritrea">ERN</option>
+                <option value="ETB" id="Ethiopian Birr - Ethiopia">ETB</option>
+                <option value="EUR" id="Euro - European Union">EUR</option>
+                <option value="FJD" id="Fiji Dollar - Fiji">FJD</option>
+                <option value="FKP" id="Falkland Islands Pound - Falkland Islands">FKP</option>
+                <option value="FOK" id="Faroese Króna - Faroe Islands">FOK</option>
+                <option value="GBP" id="Pound Sterling - United Kingdom">GBP</option>
+                <option value="GEL" id="Georgian Lari - Georgia">GEL</option>
+                <option value="GGP" id="Guernsey Pound - Guernsey">GGP</option>
+                <option value="GHS" id="Ghanaian Cedi - Ghana">GHS</option>
+                <option value="GIP" id="Gibraltar Pound - Gibraltar">GIP</option>
+                <option value="GMD" id="Gambian Dalasi - The Gambia">GMD</option>
+                <option value="GNF" id="Guinean Franc - Guinea">GNF</option>
+                <option value="GTQ" id="Guatemalan Quetzal - Guatemala">GTQ</option>
+                <option value="GYD" id="Guyanese Dollar - Guyana">GYD</option>
+                <option value="HKD" id="Hong Kong Dollar - Hong Kong">HKD</option>
+                <option value="HNL" id="Honduran Lempira - Honduras">HNL</option>
+                <option value="HRK" id="Croatian Kuna - Croatia">HRK</option>
+                <option value="HTG" id="Haitian Gourde - Haiti">HTG</option>
+                <option value="HUF" id="Hungarian Forint - Hungary">HUF</option>
+                <option value="IDR" id="Indonesian Rupiah - Indonesia">IDR</option>
+                <option value="ILS" id="Israeli New Shekel - Israel">ILS</option>
+                <option value="IMP" id="Manx Pound - Isle of Man">IMP</option>
+                <option value="INR" id="Indian Rupee - India">INR</option>
+                <option value="IQD" id="Iraqi Dinar - Iraq">IQD</option>
+                <option value="IRR" id="Iranian Rial - Iran">IRR</option>
+                <option value="ISK" id="Icelandic Króna - Iceland">ISK</option>
+                <option value="JEP" id="Jersey Pound - Jersey">JEP</option>
+                <option value="JMD" id="Jamaican Dollar - Jamaica">JMD</option>
+                <option value="JOD" id="Jordanian Dinar - Jordan">JOD</option>
+                <option value="JPY" id="Japanese Yen - Japan">JPY</option>
+                <option value="KRW" id="South Korean Won - South Korea">KRW</option>
+                <option value="KWD" id="Kuwaiti Dinar - Kuwait">KWD</option>
+                <option value="KYD" id="Cayman Islands Dollar - Cayman Islands">KYD</option>
+                <option value="KZT" id="Kazakhstani Tenge - Kazakhstan">KZT</option>
+                <option value="LAK" id="Lao Kip - Laos">LAK</option>
+                <option value="LBP" id="Lebanese Pound - Lebanon">LBP</option>
+                <option value="LKR" id="Sri Lanka Rupee - Sri Lanka">LKR</option>
+                <option value="LRD" id="Liberian Dollar - Liberia">LRD</option>
+                <option value="LSL" id="Lesotho Loti - Lesotho">LSL</option>
+                <option value="LYD" id="Libyan Dinar - Libya">LYD</option>
+                <option value="MAD" id="Moroccan Dirham - Morocco">MAD</option>
+                <option value="MDL" id="Moldovan Leu - Moldova">MDL</option>
+                <option value="MGA" id="Malagasy Ariary - Madagascar">MGA</option>
+                <option value="MKD" id="Macedonian Denar - North Macedonia">MKD</option>
+                <option value="MMK" id="Burmese Kyat - Myanmar">MMK</option>
+                <option value="MNT" id="Mongolian Tögrög - Mongolia">MNT</option>
+                <option value="MOP" id="Macanese Pataca - Macau">MOP</option>
+                <option value="MRU" id="Mauritanian Ouguiya - Mauritania">MRU</option>
+                <option value="MUR" id="Mauritian Rupee - Mauritius">MUR</option>
+                <option value="MVR" id="Maldivian Rufiyaa - Maldives">MVR</option>
+                <option value="MWK" id="Malawian Kwacha - Malawi">MWK</option>
+                <option value="MXN" id="Mexican Peso - Mexico">MXN</option>
+                <option value="MYR" id="Malaysian Ringgit - Malaysia">MYR</option>
+                <option value="MZN" id="Mozambican Metical - Mozambique">MZN</option>
+                <option value="NAD" id="Namibian Dollar - Namibia">NAD</option>
+                <option value="NGN" id="Nigerian Naira - Nigeria">NGN</option>
+                <option value="NIO" id="Nicaraguan Córdoba - Nicaragua">NIO</option>
+                <option value="NOK" id="Norwegian Krone - Norway">NOK</option>
+                <option value="NPR" id="Nepalese Rupee - Nepal">NPR</option>
+                <option value="NZD" id="New Zealand Dollar - New Zealand">NZD</option>
+                <option value="OMR" id="Omani Rial - Oman">OMR</option>
+                <option value="PAB" id="Panamanian Balboa - Panama">PAB</option>
+                <option value="PEN" id="Peruvian Sol - Peru">PEN</option>
+                <option value="PGK" id="Papua New Guinean Kina - Papua New Guinea">PGK</option>
+                <option value="PHP" id="Philippine Peso - Philippines">PHP</option>
+                <option value="PKR" id="Pakistani Rupee - Pakistan">PKR</option>
+                <option value="PLN" id="Polish Złoty - Poland">PLN</option>
+                <option value="PYG" id="Paraguayan Guaraní - Paraguay">PYG</option>
+                <option value="QAR" id="Qatari Riyal - Qatar">QAR</option>
+                <option value="RON" id="Romanian Leu - Romania">RON</option>
+                <option value="RSD" id="Serbian Dinar - Serbia">RSD</option>
+                <option value="RUB" id="Russian Ruble - Russia">RUB</option>
+                <option value="RWF" id="Rwandan Franc - Rwanda">RWF</option>
+                <option value="SAR" id="Saudi Riyal - Saudi Arabia">SAR</option>
+                <option value="SBD" id="Solomon Islands Dollar - Solomon Islands">SBD</option>
+                <option value="SCR" id="Seychellois Rupee - Seychelles">SCR</option>
+                <option value="SDG" id="Sudanese Pound - Sudan">SDG</option>
+                <option value="SEK" id="Swedish Krona - Sweden">SEK</option>
+                <option value="SGD" id="Singapore Dollar - Singapore">SGD</option>
+                <option value="SHP" id="Saint Helena Pound - Saint Helena">SHP</option>
+                <option value="SLE" id="Sierra Leonean Leone - Sierra Leone">SLE</option>
+                <option value="SOS" id="Somali Shilling - Somalia">SOS</option>
+                <option value="SRD" id="Surinamese Dollar - Suriname">SRD</option>
+                <option value="SSP" id="South Sudanese Pound - South Sudan">SSP</option>
+                <option value="STN" id="São Tomé and Príncipe Dobra - São Tomé and Príncipe">STN</option>
+                <option value="SYP" id="Syrian Pound - Syria">SYP</option>
+                <option value="SZL" id="Eswatini Lilangeni - Eswatini">SZL</option>
+                <option value="THB" id="Thai Baht - Thailand">THB</option>
+                <option value="TJS" id="Tajikistani Somoni - Tajikistan">TJS</option>
+                <option value="TMT" id="Turkmenistan Manat - Turkmenistan">TMT</option>
+                <option value="TND" id="Tunisian Dinar - Tunisia">TND</option>
+                <option value="TOP" id="Tongan Paʻanga - Tonga">TOP</option>
+                <option value="TRY" id="Turkish Lira - Turkey">TRY</option>
+                <option value="TTD" id="Trinidad and Tobago Dollar - Trinidad and Tobago">TTD</option>
+                <option value="TVD" id="Tuvaluan Dollar - Tuvalu">TVD</option>
+                <option value="TWD" id="New Taiwan Dollar - Taiwan">TWD</option>
+                <option value="TZS" id="Tanzanian Shilling - Tanzania">TZS</option>
+                <option value="UAH" id="Ukrainian Hryvnia - Ukraine">UAH</option>
+                <option value="UGX" id="Ugandan Shilling - Uganda">UGX</option>
+                <option value="USD" id="United States Dollar - United States">USD</option>
+                <option value="UYU" id="Uruguayan Peso - Uruguay">UYU</option>
+                <option value="UZS" id="Uzbekistani So'm - Uzbekistan">UZS</option>
+                <option value="VES" id="Venezuelan Bolívar Soberano - Venezuela">VES</option>
+                <option value="VND" id="Vietnamese Đồng - Vietnam">VND</option>
+                <option value="VUV" id="Vanuatu Vatu - Vanuatu">VUV</option>
+                <option value="WST" id="Samoan Tālā - Samoa">WST</option>
+                <option value="XAF" id="Central African CFA Franc - CEMAC">XAF</option>
+                <option value="XCD" id="East Caribbean Dollar - Organisation of Eastern Caribbean States">XCD</option>
+                <option value="XDR" id="Special Drawing Rights - Internati">XDR</option>
+                <option value="XOF" id="West African CFA franc - CFA">XOF</option>
+                <option value="XPF" id="CFP Franc - Collectivités d'Outre-Mer">XPF</option>
+                <option value="YER" id="Yemeni Rial - Yemen">YER</option>
+                <option value="ZAR" id="South African Rand - South Africa">ZAR</option>
+                <option value="ZMW" id="Zambian Kwacha - Zambia">ZMW</option>
+                <option value="ZWL" id="Zimbabwean Dollar - Zimbabwe">ZWL</option>                
+            </select>
+            <h2>to</h2>
+            <select id="currency1" name="currency1">
+                <option value="AED" id="UAE Dirham - United Arab Emirates">AED</option>
+                <option value="AFN" id="Afghan Afghani - Afghanistan">AFN</option>
+                <option value="ALL" id="Albanian Lek - Albania">ALL</option>
+                <option value="AMD" id="Armenian Dram - Armenia">AMD</option>
+                <option value="ANG" id="Netherlands Antillian Guilder - Netherlands Antilles">ANG</option>
+                <option value="AOA" id="Angolan Kwanza - Angola">AOA</option>
+                <option value="ARS" id="Argentine Peso - Argentina">ARS</option>
+                <option value="AUD" id="Australian Dollar - Australia">AUD</option>
+                <option value="AWG" id="Aruban Florin - Aruba">AWG</option>
+                <option value="AZN" id="Azerbaijani Manat - Azerbaijan">AZN</option>
+                <option value="BAM" id="Bosnia and Herzegovina Mark - Bosnia and Herzegovina">BAM</option>
+                <option value="BBD" id="Barbados Dollar - Barbados">BBD</option>
+                <option value="BDT" id="Bangladeshi Taka - Bangladesh">BDT</option>
+                <option value="BGN" id="Bulgarian Lev - Bulgaria">BGN</option>
+                <option value="BHD" id="Bahraini Dinar - Bahrain">BHD</option>
+                <option value="BIF" id="Burundian Franc - Burundi">BIF</option>
+                <option value="BMD" id="Bermudian Dollar - Bermuda">BMD</option>
+                <option value="BND" id="Brunei Dollar - Brunei">BND</option>
+                <option value="BOB" id="Bolivian Boliviano - Bolivia">BOB</option>
+                <option value="BRL" id="Brazilian Real - Brazil">BRL</option>
+                <option value="BSD" id="Bahamian Dollar - Bahamas">BSD</option>
+                <option value="BTN" id="Bhutanese Ngultrum - Bhutan">BTN</option>
+                <option value="BWP" id="Botswana Pula - Botswana">BWP</option>
+                <option value="BYN" id="Belarusian Ruble - Belarus">BYN</option>
+                <option value="BZD" id="Belize Dollar - Belize">BZD</option>
+                <option value="CAD" id="Canadian Dollar - Canada">CAD</option>
+                <option value="CDF" id="Congolese Franc - Democratic Republic of the Congo">CDF</option>
+                <option value="CHF" id="Swiss Franc - Switzerland">CHF</option>
+                <option value="CLP" id="Chilean Peso - Chile">CLP</option>
+                <option value="CNY" id="Chinese Renminbi - China">CNY</option>
+                <option value="COP" id="Colombian Peso - Colombia">COP</option>
+                <option value="CRC" id="Costa Rican Colon - Costa Rica">CRC</option>
+                <option value="CUP" id="Cuban Peso - Cuba">CUP</option>
+                <option value="CVE" id="Cape Verdean Escudo - Cape Verde">CVE</option>
+                <option value="CZK" id="Czech Koruna - Czech Republic">CZK</option>
+                <option value="DJF" id="Djiboutian Franc - Djibouti">DJF</option>
+                <option value="DKK" id="Danish Krone - Denmark">DKK</option>
+                <option value="DOP" id="Dominican Peso - Dominican Republic">DOP</option>
+                <option value="DZD" id="Algerian Dinar - Algeria">DZD</option>
+                <option value="EGP" id="Egyptian Pound - Egypt">EGP</option>
+                <option value="ERN" id="Eritrean Nakfa - Eritrea">ERN</option>
+                <option value="ETB" id="Ethiopian Birr - Ethiopia">ETB</option>
+                <option value="EUR" id="Euro - European Union">EUR</option>
+                <option value="FJD" id="Fiji Dollar - Fiji">FJD</option>
+                <option value="FKP" id="Falkland Islands Pound - Falkland Islands">FKP</option>
+                <option value="FOK" id="Faroese Króna - Faroe Islands">FOK</option>
+                <option value="GBP" id="Pound Sterling - United Kingdom">GBP</option>
+                <option value="GEL" id="Georgian Lari - Georgia">GEL</option>
+                <option value="GGP" id="Guernsey Pound - Guernsey">GGP</option>
+                <option value="GHS" id="Ghanaian Cedi - Ghana">GHS</option>
+                <option value="GIP" id="Gibraltar Pound - Gibraltar">GIP</option>
+                <option value="GMD" id="Gambian Dalasi - The Gambia">GMD</option>
+                <option value="GNF" id="Guinean Franc - Guinea">GNF</option>
+                <option value="GTQ" id="Guatemalan Quetzal - Guatemala">GTQ</option>
+                <option value="GYD" id="Guyanese Dollar - Guyana">GYD</option>
+                <option value="HKD" id="Hong Kong Dollar - Hong Kong">HKD</option>
+                <option value="HNL" id="Honduran Lempira - Honduras">HNL</option>
+                <option value="HRK" id="Croatian Kuna - Croatia">HRK</option>
+                <option value="HTG" id="Haitian Gourde - Haiti">HTG</option>
+                <option value="HUF" id="Hungarian Forint - Hungary">HUF</option>
+                <option value="IDR" id="Indonesian Rupiah - Indonesia">IDR</option>
+                <option value="ILS" id="Israeli New Shekel - Israel">ILS</option>
+                <option value="IMP" id="Manx Pound - Isle of Man">IMP</option>
+                <option value="INR" id="Indian Rupee - India">INR</option>
+                <option value="IQD" id="Iraqi Dinar - Iraq">IQD</option>
+                <option value="IRR" id="Iranian Rial - Iran">IRR</option>
+                <option value="ISK" id="Icelandic Króna - Iceland">ISK</option>
+                <option value="JEP" id="Jersey Pound - Jersey">JEP</option>
+                <option value="JMD" id="Jamaican Dollar - Jamaica">JMD</option>
+                <option value="JOD" id="Jordanian Dinar - Jordan">JOD</option>
+                <option value="JPY" id="Japanese Yen - Japan">JPY</option>
+                <option value="KRW" id="South Korean Won - South Korea">KRW</option>
+                <option value="KWD" id="Kuwaiti Dinar - Kuwait">KWD</option>
+                <option value="KYD" id="Cayman Islands Dollar - Cayman Islands">KYD</option>
+                <option value="KZT" id="Kazakhstani Tenge - Kazakhstan">KZT</option>
+                <option value="LAK" id="Lao Kip - Laos">LAK</option>
+                <option value="LBP" id="Lebanese Pound - Lebanon">LBP</option>
+                <option value="LKR" id="Sri Lanka Rupee - Sri Lanka">LKR</option>
+                <option value="LRD" id="Liberian Dollar - Liberia">LRD</option>
+                <option value="LSL" id="Lesotho Loti - Lesotho">LSL</option>
+                <option value="LYD" id="Libyan Dinar - Libya">LYD</option>
+                <option value="MAD" id="Moroccan Dirham - Morocco">MAD</option>
+                <option value="MDL" id="Moldovan Leu - Moldova">MDL</option>
+                <option value="MGA" id="Malagasy Ariary - Madagascar">MGA</option>
+                <option value="MKD" id="Macedonian Denar - North Macedonia">MKD</option>
+                <option value="MMK" id="Burmese Kyat - Myanmar">MMK</option>
+                <option value="MNT" id="Mongolian Tögrög - Mongolia">MNT</option>
+                <option value="MOP" id="Macanese Pataca - Macau">MOP</option>
+                <option value="MRU" id="Mauritanian Ouguiya - Mauritania">MRU</option>
+                <option value="MUR" id="Mauritian Rupee - Mauritius">MUR</option>
+                <option value="MVR" id="Maldivian Rufiyaa - Maldives">MVR</option>
+                <option value="MWK" id="Malawian Kwacha - Malawi">MWK</option>
+                <option value="MXN" id="Mexican Peso - Mexico">MXN</option>
+                <option value="MYR" id="Malaysian Ringgit - Malaysia">MYR</option>
+                <option value="MZN" id="Mozambican Metical - Mozambique">MZN</option>
+                <option value="NAD" id="Namibian Dollar - Namibia">NAD</option>
+                <option value="NGN" id="Nigerian Naira - Nigeria">NGN</option>
+                <option value="NIO" id="Nicaraguan Córdoba - Nicaragua">NIO</option>
+                <option value="NOK" id="Norwegian Krone - Norway">NOK</option>
+                <option value="NPR" id="Nepalese Rupee - Nepal">NPR</option>
+                <option value="NZD" id="New Zealand Dollar - New Zealand">NZD</option>
+                <option value="OMR" id="Omani Rial - Oman">OMR</option>
+                <option value="PAB" id="Panamanian Balboa - Panama">PAB</option>
+                <option value="PEN" id="Peruvian Sol - Peru">PEN</option>
+                <option value="PGK" id="Papua New Guinean Kina - Papua New Guinea">PGK</option>
+                <option value="PHP" id="Philippine Peso - Philippines">PHP</option>
+                <option value="PKR" id="Pakistani Rupee - Pakistan">PKR</option>
+                <option value="PLN" id="Polish Złoty - Poland">PLN</option>
+                <option value="PYG" id="Paraguayan Guaraní - Paraguay">PYG</option>
+                <option value="QAR" id="Qatari Riyal - Qatar">QAR</option>
+                <option value="RON" id="Romanian Leu - Romania">RON</option>
+                <option value="RSD" id="Serbian Dinar - Serbia">RSD</option>
+                <option value="RUB" id="Russian Ruble - Russia">RUB</option>
+                <option value="RWF" id="Rwandan Franc - Rwanda">RWF</option>
+                <option value="SAR" id="Saudi Riyal - Saudi Arabia">SAR</option>
+                <option value="SBD" id="Solomon Islands Dollar - Solomon Islands">SBD</option>
+                <option value="SCR" id="Seychellois Rupee - Seychelles">SCR</option>
+                <option value="SDG" id="Sudanese Pound - Sudan">SDG</option>
+                <option value="SEK" id="Swedish Krona - Sweden">SEK</option>
+                <option value="SGD" id="Singapore Dollar - Singapore">SGD</option>
+                <option value="SHP" id="Saint Helena Pound - Saint Helena">SHP</option>
+                <option value="SLE" id="Sierra Leonean Leone - Sierra Leone">SLE</option>
+                <option value="SOS" id="Somali Shilling - Somalia">SOS</option>
+                <option value="SRD" id="Surinamese Dollar - Suriname">SRD</option>
+                <option value="SSP" id="South Sudanese Pound - South Sudan">SSP</option>
+                <option value="STN" id="São Tomé and Príncipe Dobra - São Tomé and Príncipe">STN</option>
+                <option value="SYP" id="Syrian Pound - Syria">SYP</option>
+                <option value="SZL" id="Eswatini Lilangeni - Eswatini">SZL</option>
+                <option value="THB" id="Thai Baht - Thailand">THB</option>
+                <option value="TJS" id="Tajikistani Somoni - Tajikistan">TJS</option>
+                <option value="TMT" id="Turkmenistan Manat - Turkmenistan">TMT</option>
+                <option value="TND" id="Tunisian Dinar - Tunisia">TND</option>
+                <option value="TOP" id="Tongan Paʻanga - Tonga">TOP</option>
+                <option value="TRY" id="Turkish Lira - Turkey">TRY</option>
+                <option value="TTD" id="Trinidad and Tobago Dollar - Trinidad and Tobago">TTD</option>
+                <option value="TVD" id="Tuvaluan Dollar - Tuvalu">TVD</option>
+                <option value="TWD" id="New Taiwan Dollar - Taiwan">TWD</option>
+                <option value="TZS" id="Tanzanian Shilling - Tanzania">TZS</option>
+                <option value="UAH" id="Ukrainian Hryvnia - Ukraine">UAH</option>
+                <option value="UGX" id="Ugandan Shilling - Uganda">UGX</option>
+                <option value="USD" id="United States Dollar - United States">USD</option>
+                <option value="UYU" id="Uruguayan Peso - Uruguay">UYU</option>
+                <option value="UZS" id="Uzbekistani So'm - Uzbekistan">UZS</option>
+                <option value="VES" id="Venezuelan Bolívar Soberano - Venezuela">VES</option>
+                <option value="VND" id="Vietnamese Đồng - Vietnam">VND</option>
+                <option value="VUV" id="Vanuatu Vatu - Vanuatu">VUV</option>
+                <option value="WST" id="Samoan Tālā - Samoa">WST</option>
+                <option value="XAF" id="Central African CFA Franc - CEMAC">XAF</option>
+                <option value="XCD" id="East Caribbean Dollar - Organisation of Eastern Caribbean States">XCD</option>
+                <option value="XDR" id="Special Drawing Rights - Internati">XDR</option>
+                <option value="XOF" id="West African CFA franc - CFA">XOF</option>
+                <option value="XPF" id="CFP Franc - Collectivités d'Outre-Mer">XPF</option>
+                <option value="YER" id="Yemeni Rial - Yemen">YER</option>
+                <option value="ZAR" id="South African Rand - South Africa">ZAR</option>
+                <option value="ZMW" id="Zambian Kwacha - Zambia">ZMW</option>
+                <option value="ZWL" id="Zimbabwean Dollar - Zimbabwe">ZWL</option>      
+            </select>
+            </div>
+            <p>
+            <label for="results">Result: </label>
+            <span id="result" name="text"></span>
+            </p>
+            <button type="reset">Reset</button>
+            <button type="submit" name="convert" id="convert">Convert</button>
+            <p id="result1" name="text"></p>
+    </form>
+    <aside>
+        <h3 id="h3"></h3>
+        <div class="line">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+        <div id="four"></div>
+        <div id="five"></div>
+        <div id="six"></div>
+    </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>

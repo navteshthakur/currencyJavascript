@@ -1,0 +1,94 @@
+/*Name: Navtesh Thakur
+Student Id: 200554899
+Email: thnavtesh@gmail.com*/
+*{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('Fonts/bebas/Bebas-Regular.ttf');
+}
+.heading{
+    background-image: url("images/attachmentGreen.gif");
+            background-repeat: repeat;
+            background-clip: initial;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-font-smoothing: antialiased;
+    font-family: 'Bebas';
+    font-size: 3em;
+}
+body{
+    background-image: url('images/seamless-money.jpg');
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas';
+}
+form{
+    margin: 2.5%;
+    margin-left:29%;
+    width:max-content;
+    height: 24em;
+    border-radius: 0.25em;
+    font-size: 1.4em;
+    background-color: rgba(248, 250, 252, 0.881);
+    padding:1.5em;
+    }
+button{
+    font-size: 1.2em;
+    background-color: rgb(242, 189, 15);
+    border-radius: 5px;
+    font-family: 'Bebas';
+    border: none;
+    padding: 0.5em;
+    width: 30%;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(172, 132, 1);;
+    transition: 0.5s;
+}
+h2{
+    text-align: center;
+    font-size: 1.25em;
+    color: rgb(0, 0, 0);
+    padding:0.1em;
+    margin:5%;
+    margin-top: 1%;
+}
+select{
+    text-align: center;
+    background-color: green;
+    font-size: 0.8em;
+    color: white;
+    padding:0.1em;
+    width: 10em;
+    height: 3em;
+    border-radius: 0.25em;
+}
+label{
+    font-size: 1.5em;
+}
+input{
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 1.5em;
+    width: 40%;
+}
+aside{
+    background-color: rgba(248, 250, 252, 0.881);
+    padding:2%;
+}
+.line{
+    display: flex;
+    overflow: hidden;
+}
+.line div{
+    background-color: rgb(244, 195, 0);
+    background-image: url("images/money.gif");
+    padding:1%;
+    margin:0.6%;
+}
